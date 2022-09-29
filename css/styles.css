@@ -1,0 +1,380 @@
+
+@font-face {
+  font-family: FordAntenna-Bold;
+  src: url(../assets/fonts/FordAntenna-Bold.woff);
+}
+@font-face {
+  font-family: FordAntenna-Light;
+  src: url(../assets/fonts/FordAntenna-Light.woff);
+}
+@font-face {
+  font-family: FordAntenna-Regular;
+  src: url(../assets/fonts/FordAntenna-Regular.woff);
+}
+@font-face {
+  font-family: FordAntenna-ExtraLight;
+  src: url(../assets/fonts/FordAntenna-ExtraLight.woff);
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  font-family: FordAntenna-Light;
+  background-color: #ffffff;
+  padding-top: 5rem;
+}
+
+p {
+  font-family: FordAntenna-Light;
+}
+
+h2 {
+  font-family: FordAntenna-Regular;
+  color: #616161;
+}
+
+section {
+  position: relative;
+}
+
+a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.text-small {
+  font-size: 0.75rem;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+}
+.section-padding {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.cols-paddings {
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+
+/* Custom bootstrap */
+.navbar {
+  background-color: #182c68 !important;
+}
+.navbar-brand img {
+  width: 14rem;
+  height: 4rem;
+}
+
+.form-control {
+  border: 1.5px solid #2042a6 !important;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #616161 !important;
+  border-color: #616161 !important;
+}
+
+.lightbox .lb-image {
+  border: none !important;
+}
+
+.title-hero {
+  margin-top: 2rem;
+}
+
+.title-hero h1 {
+  font-size: calc(2.5em + 1vmin);
+}
+
+.hero-image {
+  background-color: #3b5998;
+  height: 100%;
+  background: url("../assets/images/hero-escape.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.form-inline i {
+  font-size: 1.2rem;
+}
+
+#versiones .card {
+  border: none;
+}
+#versiones h2.mb-5 {
+  font-family: FordAntenna-Light;
+  font-size: calc(1.5em + 1vmin);
+}
+#versiones .descripcion {
+  color: #616161;
+}
+#versiones .precio {
+  color: #616161;
+}
+#versiones .version {
+  color: #2d96cd;
+  font-size: 1.125rem;
+}
+#galeria .gallery {
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  justify-items: center;
+  grid-gap: 0rem;
+  margin: 0 auto;
+}
+
+#galeria .gallery .item {
+  width: 100%;
+  overflow: hidden;
+  background: #000;
+}
+
+#galeria .item img {
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+#galeria .item img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  transition: all 1s ease;
+}
+
+#tecnologias .card {
+  border: none;
+}
+
+#tecnologias p.mt-3 {
+  color: #2d96cd;
+  font-size: 1.125rem;
+}
+
+#fichaTecnica {
+  background-color: #f6f6f8;
+}
+#fichaTecnica .card {
+  background-color: #f6f6f8;
+  border: none;
+}
+#fichaTecnica h5 {
+  font-family: FordAntenna-Light;
+  margin-bottom: 1.5rem;
+  color: #2d96cd;
+}
+#fichaTecnica td {
+  padding: 0rem 1rem 2rem 0rem;
+  font-family: FordAntenna-ExtraLight;
+  color: #616161;
+}
+
+#asistencias {
+  background-color: #f6f6f8;
+}
+
+#formulario h5 {
+  color: #2042a6;
+  font-family: FordAntenna-Light;
+}
+
+#formulario label {
+  font-family: FordAntenna-Regular;
+}
+#formulario span {
+  font-family: FordAntenna-Light;
+  font-size: 12px;
+}
+
+#formulario #sendSolicitante {
+  font-family: FordAntenna-Regular;
+}
+
+/* Footer */
+
+footer {
+  background-color: #182c68;
+  color: #ffffff;
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+footer .fab {
+  font-size: 2.5rem;
+}
+
+.fa-facebook,
+.fa-whatsapp,
+.fa-twitter,
+.fa-instagram {
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.fa-facebook:hover,
+.fa-facebook:focus {
+  color: #4267b2;
+  transform: scale(1.1);
+}
+
+.fa-whatsapp:hover,
+.fa-whatsapp:focus {
+  color: #25d366;
+  transform: scale(1.1);
+}
+
+.fa-twitter:hover,
+.fa-twitter:focus {
+  color: #1da1f2;
+  transform: scale(1.1);
+}
+
+.fa-instagram:hover,
+.fa-instagram:focus {
+  background: radial-gradient(
+    circle at 25% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(1.1);
+}
+
+@media (min-width: 1200px) {
+  .max-container {
+    max-width: 1300px !important;
+  }
+ 
+}
+
+@media only screen and (max-width: 1200px) {
+  .cols-paddings {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 575px) {
+  .card {
+    margin-bottom: 1rem;
+  }
+  #galeria .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  }
+  #fichaTecnica {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .hero-image {
+    background: url("../assets/images/hero-escape-small.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .title-hero h1 {
+    font-size: calc(1.5em + 1vmin);
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .navbar-brand img {
+    width: 10rem;
+  }
+  .title-hero {
+    align-self: center;
+    margin-top: 4rem;
+  }
+  .title-hero h1 {
+    font-size: calc(1.25em + 1vmin);
+  }
+  #fichaTecnica {
+    padding-top: 15px !important;
+    padding-bottom: 30px !important;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+
+}
+
+/* Patrocinadores slick */
+.slickSlider {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+.slickSlider.w300 {
+  max-width: 300px;
+}
+.slick-slide {
+  margin: 0 5px;
+}
+.slick-slide img {
+  width: 100%;
+  height: auto;
+}
+.slick-prev,
+.slick-next {
+  z-index: 1;
+}
+.slick-slide {
+  transition: all ease-in-out 0.3s;
+  opacity: 0.2;
+}
+.slick-active {
+  opacity: 1;
+}
+.slick-current {
+  opacity: 1;
+}
+.thumb {
+  margin: 20px 0 0;
+}
+.thumb .slick-slide {
+  cursor: pointer;
+}
+.thumb .slick-slide:hover {
+  opacity: 0.7;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #182c68 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1 !important;
+  color: #182c68 !important;
+}
+
+.slick-dots li button:before {
+  font-size: 12px !important;
+  color: #182c68 !important;
+}
